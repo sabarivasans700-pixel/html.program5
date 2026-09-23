@@ -1,17 +1,133 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
+
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CSS3 Multi-Column Layout</title>
+
+<title>CSS3 Column Features</title>
+
+
 
 <style>
-/* Write the CSS required for this page here */
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    margin: 20px;
+
+    background-color: #b8eefe;
+
+}
+
+
+
+h1 {
+
+    text-align: center;
+
+    color: rgb(126, 26, 188);
+
+    column-span: all;
+
+}
+
+
+
+.columns {
+
+    column-count: 3;
+
+    column-gap: 30px;
+
+    column-rule: 3px solid gray;
+
+    text-align: justify;
+
+    padding: 15px;
+
+    background-color: rgb(247, 218, 218);
+
+}
+
 </style>
+
+
 
 </head>
 
+
+
 <body>
-/* Design the page for 3 column web page here */
+
+
+
+<h1>CSS3 Multi-Column Layout</h1>
+
+
+
+<div class="columns">
+
+    <p>
+
+        Artificial Intelligence (AI) is transforming the way people
+
+        interact with technology. It enables computers to perform tasks
+
+        such as learning, problem-solving, and decision-making with
+
+        greater efficiency.
+
+    </p>
+
+
+
+    <p>
+
+        AI is widely used in healthcare, education, banking, and
+
+        transportation. Virtual assistants, recommendation systems, and
+
+        self-driving vehicles are common examples of AI applications in
+
+        everyday life.
+
+    </p>
+
+
+
+    <p>
+
+        Machine learning, a branch of AI, allows computers to improve
+
+        their performance by analyzing data and recognizing patterns.
+
+        This helps businesses make better decisions and provide
+
+        personalized services to customers.
+
+    </p>
+
+
+
+    <p>
+
+        As AI continues to evolve, it creates new opportunities for
+
+        innovation while also raising important discussions about ethics,
+
+        privacy, and responsible use. Understanding AI helps individuals
+
+        prepare for the future of technology.
+
+    </p>
+
+</div>
+
+
+
 </body>
+
 </html>
